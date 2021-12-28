@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import "../Navbar/Nav.css";
 import { Link } from 'react-router-dom';
 import { TiThMenu } from "react-icons/ti";
-// import logo from "../Images/SKG_New_Logo.jpg";
+import logo from "../Navbar/logo.png";
 function Nav() {
   const [showLinks, setShowLinks] = useState(false)
   const navBarShow = () => setShowLinks(false);
@@ -11,7 +11,7 @@ function Nav() {
     <div className="Navbar">
       <div className="leftside"></div>
       <a href="/">
-        {/* <img src={} className="hw" alt="imgg" /> */}
+        <img src={logo} className="hw" alt="imgg" />
       </a>
       <div className="rightside">
         <div className="links" id={showLinks ? "hidden" : ""}>

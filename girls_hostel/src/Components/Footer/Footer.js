@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 // import { FaAngleRight } from "react-icons/fa";
 // import Fade from 'react-reveal/Fade';
 // import divid from "../Images/underline.png";
-// import flogo from "../Images/MicrosoftTeams-image.png";
+import flogo from "../Navbar/logo.png";
 // import tawkTo from "tawkto-react";
 // const tawkToPropertyId = 'get_property_id_from_tawkto_dashboard'
 // Direct Chat Link
@@ -19,8 +19,8 @@ function Footer() {
             {/* <Fade bottom> */}
                 {/* <img className="divider-footer" src={divid} alt="underline" /> */}
                 <div className="d-flex footer">
-                    <div className="one ">
-                        {/* <img src={flogo} className="h-w" alt="footer-logo" /> */}
+                    <div className="one text-center ">
+                        <img src={flogo} className="h-w" alt="footer-logo" />
                         <p className="mar lnk"> </p>
                     </div>
                     <div className="two">
@@ -30,22 +30,24 @@ function Footer() {
                             <a href="/#">Home</a><br />
                             {/* <FaAngleRight className="text-golden" />  */}
                             <Link to="/about">About Us</Link><br />
+                            <Link to="/services">Services</Link><br />
+                            <Link to="/gallery">Gallery</Link><br />
+                            <Link to="/contactus"> Contact Us</Link><br />
+
                             {/* <FaAngleRight className="text-golden" /> */}
-                              <Link to="/events">Events</Link><br />
+                              {/* <Link to="/events">Events</Link><br /> */}
                             {/* <FaAngleRight className="text-golden" />  */}
-                             <Link to="/sponsers">Sponsers</Link><br />
+                             {/* <Link to="/sponsers">Sponsers</Link><br /> */}
                         </div>
                     </div>
-                    <div className="lnk mt">
+                    {/* <div className="lnk mt">
                         {/* <FaAngleRight className="text-golden" /> */}
-                          <Link to="/gallery">Gallery</Link><br />
                         {/* <FaAngleRight className="text-golden" /> */}
-                          <Link to="/auditions">Auditions</Link><br />
+                          {/* <Link to="/auditions">Auditions</Link><br /> */}
                         {/* <FaAngleRight className="text-golden" /> */}
-                        <Link to="/contactus"> Contact Us</Link><br />
                         {/* <FaAngleRight className="text-golden" /> */}
-                        <Link to="/registration">Registration</Link><br />
-                    </div>
+                        {/* <Link to="/registration">Registration</Link><br /> */}
+                    {/* </div> */}
                     <div className="three">
                         <h4>Important Links</h4>
                         <div className="lnk">
