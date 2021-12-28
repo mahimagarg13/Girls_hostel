@@ -41,14 +41,14 @@ padding-bottom: 30px;
 }
 .action{
     width: 50%;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 20px 0px 20px;
     text-align: center;
     align-self: center;
 }
 .action-card{
     /* width: 90%; */
-    border-radius: 5px;
-    padding: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .p-action{
@@ -87,6 +87,12 @@ padding-bottom: 30px;
 .p-action{
     font-size: 1rem;
 }
+.action{
+    width: 50%;
+    padding: 0px 15px 0px 15px;
+    text-align: center;
+    align-self: center;
+}
 }
 @media screen and (max-width:426px){
         /* facilities */
@@ -120,7 +126,8 @@ padding-bottom: 30px;
 }
 .action{
     width: 100%;
-    padding-top: 30px;
+    padding: 30px 5px 0px 5px;
+
 }
 /* end call to action */
 }
