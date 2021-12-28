@@ -1,0 +1,134 @@
+
+/* facilities-page */
+.facilities{
+    padding: 50px;
+    
+}
+#grad {
+    background-image: linear-gradient(to bottom, white, pink);
+  }
+.heading{
+padding-bottom: 30px;
+}
+.facilities-content{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.icons{
+    width: 150px;
+    padding: 20px;
+}
+.icon-box{
+    width: 300px;
+    overflow: hidden;
+    padding: 2px;
+}
+.icon-content{
+    font-size: 1.2rem;
+    color: maroon;
+}
+
+@media screen and (max-width:768px){
+    .facilities-content{
+        padding-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .icons{
+        width: 100px;
+        padding: 20px;
+    }
+    .icon-content{
+        font-size: 1rem;
+        color: maroon;
+    }
+}
+
+
+@media screen and (max-width:768px){
+    .facilities-content{
+        padding-top: 10px;
+        display: flex;
+     flex-direction: row;
+        justify-content: center;
+    }
+    .icon-box{
+        width: 200px;
+        overflow: hidden;
+        padding: 2px;
+    }
+    .icons{
+        width: 100px;
+        padding: 20px;
+    }
+    .icon-content{
+        font-size: 1rem;
+        color: maroon;
+    }
+}
+@media screen and (max-width:426px){
+    .facilities-content{
+        padding-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .icon-box{
+        width: 200px;
+        overflow: hidden;
+        padding: 2px;
+    }
+    .icons{
+        width: 100px;
+        padding: 20px;
+    }
+    .icon-content{
+        font-size: 1rem;
+        color: maroon;
+    }
+}
+@media screen and (max-width:375px){
+    .facilities-content{
+        padding-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .icon-box{
+        width: 160px;
+        overflow: hidden;
+        padding: 2px;
+    }
+    .icons{
+        width: 100px;
+        padding: 20px;
+    }
+    .icon-content{
+        font-size: 1rem;
+        color: maroon;
+    }
+}
+@media screen and (max-width:320px){
+    .facilities-content{
+        padding-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .icon-box{
+        width: 145px;
+        overflow: hidden;
+        padding: 2px;
+    }
+    .icons{
+        width: 100px;
+        padding: 20px;
+    }
+    .icon-content{
+        font-size: 1rem;
+        color: maroon;
+    }
+}
