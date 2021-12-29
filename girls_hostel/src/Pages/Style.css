@@ -19,6 +19,10 @@ padding-bottom: 30px;
 .icons{
     width: 150px;
     padding: 20px;
+    transition: width 2s, height 2s, transform 1.5s;
+}
+.icons:hover{
+    transform: rotate(360deg);
 }
 .icon-box{
     width: 300px;
@@ -56,9 +60,41 @@ padding-bottom: 30px;
     color: gray;
 }
 /* end call to action */
+/* tamplet */
+.tamplet{
+    background-color: #dd9933;
+    height: 200px;
+}
+.tamplet-content{
+    font-size: 3rem;
+    width:70%;
+    padding-top: 50px;
+    align-self: center;
+}
+.tamplet-button{
+    width: 30%;
+    padding-top: 50px;
+    text-align: center;
+    align-self: center;
+}
+.con{
+    text-align: center;
+}
 @media screen and (max-width:1024px){
     .p-action{
         font-size: 1.1rem;
+    }
+    .tamplet-content{
+        font-size: 2.2rem;
+        width:70%;
+        padding-top: 60px;
+        align-self: center;
+    }
+    .tamplet-button{
+        width: 30%;
+        padding-top: 60px;
+        text-align: center;
+        align-self: center;
     }
 }   
 
@@ -90,6 +126,19 @@ padding-bottom: 30px;
 .action{
     width: 50%;
     padding: 0px 15px 0px 15px;
+    text-align: center;
+    align-self: center;
+}
+/* tamplet */
+.tamplet-content{
+    font-size: 2rem;
+    width:70%;
+    padding-top: 50px;
+    align-self: center;
+}
+.tamplet-button{
+    width: 30%;
+    padding-top: 50px;
     text-align: center;
     align-self: center;
 }
@@ -130,6 +179,20 @@ padding-bottom: 30px;
 
 }
 /* end call to action */
+/* tamplet */
+.tamplet-content{
+    font-size: 2rem;
+    width:100%;
+    padding-top: 10px;
+    align-self: center;
+    text-align: center;
+}
+.tamplet-button{
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+    align-self: center;
+}
 }
 @media screen and (max-width:375px){
         /* facilities */
@@ -153,7 +216,20 @@ padding-bottom: 30px;
         color: maroon;
     }
         /*end facilities */
-
+/* tamplet */
+.tamplet-content{
+    font-size: 1.6rem;
+    width:100%;
+    padding-top: 15px;
+    align-self: center;
+    text-align: center;
+}
+.tamplet-button{
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+    align-self: center;
+}
 }
 @media screen and (max-width:320px){
         /* facilities */
