@@ -1,9 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
-*{
-  font-family: Alice, Arial, Helvetica, sans-serif;
-  font-weight: 600;
-
-}
 .hw{padding-left: 10px;
       height: 100px;
    }
@@ -13,7 +7,6 @@
       background-color: white;
       width: 100%;
       height: 100px;
-      font-family: 'Alice', serif;  
       display: flex;
       z-index: 99999999;
       box-shadow:  0 10px 12px 0 rgba(0, 0, 0, 0.2);
@@ -35,7 +28,7 @@
       background-color: white;
   color:black;
   border:none;
-  font-size: 28px;
+  /* font-size: 28px; */
       margin-left: 20px;
     }
 .Navbar .rightside #hidden{
@@ -44,7 +37,8 @@
 .Navbar .rightside .links a {
     text-decoration: none;
     color: black;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+        font-weight: 900;
     padding: 10px 20px;
     justify-content: center;
     /* border: 2px solid black; */
@@ -61,11 +55,11 @@
       border-radius: 8px;
       margin-left: 5px;
       color: black !important;
-      background-color: white;
+      background-color: rgb(126, 214, 248);
   }
 .btnn:hover {
-    color: white !important;
-    background:transparent;
+    color: black !important;
+    background-color: rgb(72, 194, 241);
    }
   .Navbar .leftside{
       padding: 10px;
@@ -73,14 +67,15 @@
 @media only screen and (max-width: 1024px){
   .Navbar .rightside .links a {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.3rem;
     padding: 6px 15px;
     justify-content: center;
+    /* align-self: center; */
     }
   .Navbar .rightside .links a:hover {
     text-decoration: none;
     background-color: transparent;
-    font-size: 1rem;
+    font-size: 1.3rem;
     border-radius:8px;
     color: green;
     /* border: 2px solid #dd9933 ; */
@@ -141,12 +136,29 @@ padding-left: 0px;
       }
       .Navbar .rightside #hidden a{
         margin: 10px;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         color: gray;
         padding: 6px 8px;
         border-bottom: 1px solid gray;
             }
       }
+    @media  screen and (max-width:425px){
+      .Navbar .rightside #hidden{
+        position:absolute;
+        z-index: 100;
+        left: 0px;
+        top: 0px;
+        height: 100vh;
+        max-height: 100vh;
+        width: 65%;
+        background-color:#010101;
+        display: flex;
+        /* color: honeydew !important; */
+        flex-direction: column;
+        /* align-items: center; */
+        padding-top: 50px;
+      }
+    }
     @media  screen and (max-width:376px){
         .hw{
        height: 100px;
@@ -165,9 +177,9 @@ padding-left: 0px;
       z-index: 100;
       left: 0px;
       /* top: 80px; */
-      height: 500px;
-      max-height: 500px;
-      width: 50%;
+      height: 100vh;
+      max-height: 100vh;
+      width: 70%;
       background-color:black;
       display: flex;
       flex-direction: column;
@@ -175,7 +187,7 @@ padding-left: 0px;
     }
     .Navbar .rightside #hidden a {
         margin: 10px;
-        font-size: 1.4rem;
+        font-size: 1.1rem;
         color: gray;
         padding: 6px 2px;
         border-bottom: 1px solid gray;

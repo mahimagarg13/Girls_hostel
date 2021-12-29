@@ -14,6 +14,7 @@ import feleven from "../facilities-icon/wardrobe.png"
 import ftwlv from "../facilities-icon/quarantine.png"
 import fthirtn from "../facilities-icon/cctv.png"
 import ffourtn from "../facilities-icon/parking.png"
+import divider from "../facilities-icon/divider.png"
 export default function Facilities() {
     window.scrollTo(0, 0)
     return (
@@ -21,6 +22,7 @@ export default function Facilities() {
             <div className='facilities text-center container' >
                 <div className='heading'>
                     <h1>Facilities</h1>
+                    <img src={divider} className="divider"  alt="divider" />
                 </div>
                 <div className='facilities-content'>
                     <div className='icon-box'>

@@ -1,3 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Josefin+Sans&family=Montserrat&family=PT+Sans&family=Roboto:ital,wght@0,300;1,300&display=swap');
+*{font-family: 'Alice', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+/* gmap */
+.googlemaps{
+    height: 400px;
+    width:100%;
+}
+/* end gmap */
+.divider{
+    height: 50px;
+}
+.tags {
+	text-align: center;
+	padding: 20px 0px;
+	background-color: white;
+}
+
+.tag {
+	outline: none;
+	border: none;
+	color: black;
+    font-size: 1.4rem;
+    font-weight: 600;
+	margin: 0px 10px;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.active {
+	font-weight: bold;
+    color: brown;
+	border-bottom: 1px solid #eee;
+}
+.gallery-container {
+	width: 80%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+}
+
+.image-card {
+	/* padding: 5px; */
+	margin: 5px;
+	border-radius: 5px;
+}
+
+.image {
+	width: 100%;
+    border-radius: 10px;
+
+}
 .m-top{
     margin-top:150px ;
 }
@@ -5,11 +62,15 @@
 .facilities{
     padding: 50px;
 }
+
 #grad {
     background-image: linear-gradient(to bottom, white, pink);
   }
 .heading{
 padding-bottom: 30px;
+}
+.padding{
+    padding: 20px 0px 20px 0px;
 }
 .facilities-content{
     padding-top: 10px;
@@ -47,14 +108,15 @@ padding-bottom: 30px;
 .action{
     width: 50%;
     padding: 0px 20px 0px 20px;
-    text-align: center;
-    align-self: center;
+    
 }
 .action-card{
     /* width: 90%; */
     border-radius: 10px;
     padding: 5px 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    align-self: center;
 }
 .p-action{
     font-size: 1.3rem;
@@ -86,10 +148,43 @@ padding-bottom: 30px;
       display: flex;
 flex-direction: row;
        justify-content:center;}
-      .gallery-img{
-       height: 300px;
-       width: 350px;
+ .gallery-img{
+       height: 500px;
+       width: 500px;
        padding: 10px;}
+
+    /* contact */
+    .contact-icon{
+        border-radius: 100px;
+        background-color: white;
+        font-size: 2.4rem;
+        padding: 2px;
+        margin-right: 10px;
+        color:black;
+    }
+    .a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.4rem;
+        font-weight: 900;
+        padding: 10px 10px 10px 10px;
+    }
+    .a:hover{
+        color: maroon;
+    }
+.contact-card{
+    text-align: left;
+    padding: 10px 10px 10px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 400px;
+    border-radius: 10px;
+}
+       @media screen and (max-width:1440px){
+        .gallery-img{
+            height: 350px;
+            width: 350px;
+            padding: 10px;}
+        }
 @media screen and (max-width:1024px){
     .p-action{
         font-size: 1.1rem;
@@ -110,6 +205,11 @@ flex-direction: row;
         height: 250px;
         width: 250px;
         padding: 5px;
+    }
+    .a{
+        font-size: 1.3rem;
+        padding: 5px;
+    
     }
 }   
 
@@ -167,6 +267,26 @@ flex-direction: row;
     height: 200px;
     width: 190px;
     padding: 5px;
+}
+.gallery-container {
+	width: 100%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+}
+/* contact */
+.a{
+    font-size: 1rem;
+    padding: 0px;
+
+}
+.contact-card{
+    text-align: left;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 400px;
+    border-radius: 10px;
 }
 }
 @media screen and (max-width:426px){
@@ -230,6 +350,26 @@ flex-direction: row;
     width: 400px;
     padding: 10px;  
 }
+.gallery-container {
+	width: 80%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	gap: 10px;
+}
+.tag {
+	outline: none;
+	border: none;
+	color: black;
+    font-size: 1.1rem;
+    font-weight: 600;
+	margin: 0px 10px;
+	background-color: transparent;
+	cursor: pointer;
+}
+.image{
+    height: 350px;
+}
 }
 @media screen and (max-width:375px){
         /* facilities */
@@ -274,6 +414,16 @@ flex-direction: row;
     width: 300px;
     padding: 10px;
 }
+.tag {
+	outline: none;
+	border: none;
+	color: black;
+    font-size: 1.1rem;
+    font-weight: 600;
+	margin: 0px 5px;
+	background-color: transparent;
+	cursor: pointer;
+}
 }
 @media screen and (max-width:320px){
         /* facilities */
@@ -297,5 +447,19 @@ flex-direction: row;
         color: maroon;
     }
         /*end facilities */
+/* gallery */
+.tag {
+	outline: none;
+	border: none;
+	color: black;
+    font-size: 1rem;
+    font-weight: 600;
+	margin: 0px 0px;
+	background-color: transparent;
+	cursor: pointer;
+}
+.image{
+    height: 250px;
 
+}
 }

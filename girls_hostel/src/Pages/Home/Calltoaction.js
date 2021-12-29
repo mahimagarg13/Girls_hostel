@@ -2,6 +2,7 @@ import React from 'react'
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { Col, Image } from 'react-bootstrap';
+import divider from "../facilities-icon/divider.png"
 export default function Calltoaction() {
     window.scrollTo(0, 0)
     return (
@@ -9,6 +10,7 @@ export default function Calltoaction() {
             <div className='container facilities'>
                 <div className='heading text-center '>
                     <h1>Call to Action</h1>
+                    <img src={divider} className="divider"  alt="divider" />
                 </div>
                 <div className='action-form'>
                     <div className='form'>

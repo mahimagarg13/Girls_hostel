@@ -30,7 +30,6 @@ function Footer() {
                             <Link to="/services">Services</Link><br />
                             <Link to="/gallery">Gallery</Link><br />
                             <Link to="/contactus"> Contact Us</Link><br />
-
                             {/* <FaAngleRight className="text-golden" /> */}
                               {/* <Link to="/events">Events</Link><br /> */}
                             {/* <FaAngleRight className="text-golden" />  */}
