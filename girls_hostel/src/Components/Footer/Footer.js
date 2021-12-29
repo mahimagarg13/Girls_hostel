@@ -2,8 +2,6 @@ import React from "react";
 import './Footer.css';
 import { Link } from 'react-router-dom';
 // import { FaAngleRight } from "react-icons/fa";
-// import Fade from 'react-reveal/Fade';
-// import divid from "../Images/underline.png";
 import flogo from "../Navbar/logo.png";
 // import tawkTo from "tawkto-react";
 // const tawkToPropertyId = 'get_property_id_from_tawkto_dashboard'
@@ -11,14 +9,13 @@ import flogo from "../Navbar/logo.png";
 // https://tawk.to/chat/tawkToPropertyId/tawkToKey
 // const tawkToKey = '61a80d989099530957f795da'
 function Footer() {
+    window.scrollTo(0, 0)
     // useEffect(() => {
     //     tawkTo(tawkToPropertyId, tawkToKey)
     // }, [])
     return (
         <div className="background-black">
-            {/* <Fade bottom> */}
-                {/* <img className="divider-footer" src={divid} alt="underline" /> */}
-                <div className="d-flex footer">
+                           <div className="d-flex footer">
                     <div className="one text-center ">
                         <img src={flogo} className="h-w" alt="footer-logo" />
                         <p className="mar lnk"> </p>
@@ -59,7 +56,6 @@ function Footer() {
                             <Link to="/faq">FAQ</Link><br />
                         </div></div>
                 </div>
-            {/* </Fade> */}
         </div>
     );
 }

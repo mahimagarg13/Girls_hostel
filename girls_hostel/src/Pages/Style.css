@@ -1,8 +1,9 @@
-
+.m-top{
+    margin-top:150px ;
+}
 /* facilities-page */
 .facilities{
     padding: 50px;
-    
 }
 #grad {
     background-image: linear-gradient(to bottom, white, pink);
@@ -80,6 +81,15 @@ padding-bottom: 30px;
 .con{
     text-align: center;
 }
+/* gallery */
+.gallery{
+      display: flex;
+flex-direction: row;
+       justify-content:center;}
+      .gallery-img{
+       height: 300px;
+       width: 350px;
+       padding: 10px;}
 @media screen and (max-width:1024px){
     .p-action{
         font-size: 1.1rem;
@@ -95,6 +105,11 @@ padding-bottom: 30px;
         padding-top: 60px;
         text-align: center;
         align-self: center;
+    }
+    .gallery-img{
+        height: 250px;
+        width: 250px;
+        padding: 5px;
     }
 }   
 
@@ -141,6 +156,17 @@ padding-bottom: 30px;
     padding-top: 50px;
     text-align: center;
     align-self: center;
+}
+/* gallery */
+.gallery{
+    flex-direction: row;
+    height: "auto";
+      justify-content: "center";
+}
+.gallery-img{
+    height: 200px;
+    width: 190px;
+    padding: 5px;
 }
 }
 @media screen and (max-width:426px){
@@ -193,6 +219,17 @@ padding-bottom: 30px;
     text-align: center;
     align-self: center;
 }
+/* gallery */
+.gallery{
+    flex-direction: column;
+    height: "auto";
+      justify-content: "center";
+}
+.gallery-img{
+    height: auto;
+    width: 400px;
+    padding: 10px;  
+}
 }
 @media screen and (max-width:375px){
         /* facilities */
@@ -229,6 +266,13 @@ padding-bottom: 30px;
     padding-top: 10px;
     text-align: center;
     align-self: center;
+}
+/* gallery */
+.gallery-img{
+    text-align: center;
+    height: auto;
+    width: 300px;
+    padding: 10px;
 }
 }
 @media screen and (max-width:320px){

@@ -23,7 +23,7 @@ function Nav() {
               {/* <Link to="">Service 1</Link> */}
               {/* <Link to="">Service 2</Link> */}
             {/* </div></div> */}
-          <Link to="/sponsers/#" onClick={navBarShow} >Gallery</Link>
+          <Link to="/gallery/#" onClick={navBarShow} >Gallery</Link>
           {/* <Link to="/designer/#" onClick={navBarShow} >Designer</Link> */}
           <Link to="/contactus/#" onClick={navBarShow} >Contact Us</Link>
           {/* <Link to="/registration" onClick={navBarShow} className="btnn">Registration</Link> */}
