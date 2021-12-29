@@ -25,8 +25,8 @@ export default function Calltoaction() {
                             <Form.Control placeholder="Message" as="textarea" rows={3} size="lg" />
                             &nbsp;
                             <div className="d-grid">
-                                <Button variant="primary" size="lg" variant="danger" type="submit" >
-                                    book A Visit  </Button>
+                                <Button size="lg" variant="danger" type="submit" >
+                                    Book A Visit  </Button>
                             </div>
                         </Form>
                     </div>

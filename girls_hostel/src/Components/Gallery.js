@@ -5,7 +5,6 @@ export default function Gallery() {
     window.scrollTo(0, 0)
     return (
         <div className='m-top'>
-
             <Gallerypage/>
         </div>
     )

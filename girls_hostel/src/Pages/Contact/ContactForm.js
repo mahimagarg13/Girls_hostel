@@ -29,7 +29,7 @@ export default function Contactform() {
                             <Form.Control placeholder="Message" as="textarea" rows={3} size="lg" />
                             &nbsp;
                             <div className="d-grid">
-                                <Button variant="primary" size="lg" variant="danger" type="submit" >
+                                <Button  size="lg" variant="danger" type="submit" >
                                     Contact Us </Button>
                             </div>
                         </Form>

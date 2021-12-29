@@ -1,4 +1,6 @@
-export default [
+export default function Data (){
+return(
+ [
 	{ id: '1', imageName: 'hostel1.png', tag: 'washroom' },
 	{ id: '2', imageName: 'hostel2.png', tag: 'washroom' },
 	{ id: '3', imageName: 'hostel3.png', tag: 'room' },
@@ -10,3 +12,5 @@ export default [
 	{ id: '9', imageName: 'hostel8.png', tag: 'kitchen' },
 	{ id: '10', imageName: 'hostel9.png', tag: 'kitchen' },
 	]
+	);
+}
