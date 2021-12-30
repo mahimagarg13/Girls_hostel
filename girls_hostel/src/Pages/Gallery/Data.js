@@ -1,5 +1,5 @@
-export default function Data (){
-return(
+
+export  const images = 
  [
 	{ id: '1', imageName: 'hostel1.png', tag: 'washroom' },
 	{ id: '2', imageName: 'hostel2.png', tag: 'washroom' },
@@ -12,5 +12,3 @@ return(
 	{ id: '9', imageName: 'hostel8.png', tag: 'kitchen' },
 	{ id: '10', imageName: 'hostel9.png', tag: 'kitchen' },
 	]
-	);
-}

@@ -7,17 +7,14 @@ import hostelthree from "../Hostel_Images/hostel-3.png"
 export default function Hero() {
   window.scrollTo(0, 0)
   return (
-    <div>
+    <div className='mr-top'>
       <Carousel>
         <Carousel.Item>
           <img
             className="d-block w-100 imgg"
             src={hostelone}
             alt="First slide"
-          /><Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
+          />
         </Carousel.Item>
         <Carousel.Item>
           <img

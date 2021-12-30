@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import SimpleReactLightbox from 'simple-react-lightbox'
 import { SRLWrapper } from "simple-react-lightbox";
-import images from './Data';
+import { images } from './Data';
 import divider from "../facilities-icon/divider.png"
 
 // import hostel1 from "../Gallery/Gallery-images/hostel1.png";
@@ -14,7 +14,6 @@ import divider from "../facilities-icon/divider.png"
 // import hostel8 from "../Gallery/Gallery-images/hostel8.png";
 // import hostel9 from "../Gallery/Gallery-images/hostel9.png";
  export default function Gallerypage() {
-    window.scrollTo(0, 0)
     const options = {
         // settings: {
         // 	overlayColor: 'rgb(25, 136, 124)',
@@ -88,7 +87,9 @@ import divider from "../facilities-icon/divider.png"
 
 	useEffect(
 		() => {
-			tag === 'all' ? setFilteredImages(images) : setFilteredImages(images.filter(image => image.tag === tag));
+            // window.scrollTo(0, 0);
+
+	(tag === 'all' ? setFilteredImages(images) : setFilteredImages(images.filter(image => image.tag === tag)))
 		},
 		[tag]
 	);

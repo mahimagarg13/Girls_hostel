@@ -17,7 +17,7 @@ function Nav() {
       <div className="rightside">
         <div className="links" id={showLinks ? "hidden" : ""}>
           <Link to="/#" onClick={navBarShow} ><span style={{color:"#dd9933"}}>Home</span></Link>
-          <Link to="/about/#" onClick={navBarShow}>About Us</Link>
+          <Link to="/aboutus/#" onClick={navBarShow}>About Us</Link>
           {/* <div className="dropdown"> */}
               <Link to="/services/#" className="dropbtn" onClick={navBarShow} >Services</Link>
             {/* <div className="dropdown-content"> */}
