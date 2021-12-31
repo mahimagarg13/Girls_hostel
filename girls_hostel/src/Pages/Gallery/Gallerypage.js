@@ -96,7 +96,7 @@ import divider from "../facilities-icon/divider.png"
 
 	return (
 		<div className="App">
-              <div className='padding'>
+              <div className='padding padding-top-50'>
                     <h1>Gallery</h1>
                     <img src={divider} className="divider"  alt="divider" />
                 </div>

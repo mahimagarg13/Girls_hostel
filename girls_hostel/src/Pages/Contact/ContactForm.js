@@ -11,7 +11,7 @@ export default function Contactform() {
     window.scrollTo(0, 0)
     return (
         <div>
-            <div className='container facilities m-top'>
+            <div className='container facilities padding-top-50'>
                 <div className='heading text-center '>
                     <h1>Contact Us</h1>
                     <img src={divider} className="divider" alt="divider" />

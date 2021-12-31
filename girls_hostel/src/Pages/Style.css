@@ -25,9 +25,9 @@ background-position:center;
 .testimonials-card{
     padding: 10px 40px;
     border-radius: 10px;
-}
+    }
 .testimonials-card-box{
-    background-image: linear-gradient(to bottom, white, pink);
+background-color: #dd9933;
 
 }
 /* gmap */
@@ -204,6 +204,30 @@ flex-direction: row;
     height: 400px;
     border-radius: 10px;
 }
+/* aboutus-page start */
+.aboutus{
+    display: flex;
+    flex-direction: row;
+}
+.aboutus-img{
+    width: 650px;
+}
+.aboutus-content{
+    font-weight: 800;
+    padding: 0px 20px;
+}
+#vl{
+    height: 200px;
+    border-left: 2px solid orange;
+}
+.padding-top-50{
+    padding-top: 50px;
+    }
+    .services-text{
+        font-weight: 700;
+        padding: 10px;
+    }
+/* end about-us page */
        @media screen and (max-width:1440px){
         .gallery-img{
             height: 350px;
@@ -269,6 +293,11 @@ background-position:center;
     font-weight: 500;
     color: white;
 }
+/* aboutus start */
+.aboutus-img{
+    width: 450px;
+}
+/* aboutus end */
 }   
 
 @media screen and (max-width:768px){
@@ -362,6 +391,27 @@ background-position:center;
     font-weight: 500;
     color: white;
 }
+/* aboutus-page start */
+.aboutus{
+        flex-direction: column;
+}
+.aboutus-img{
+    width: 698px;
+}
+.aboutus-content{
+    font-weight: 800;
+    padding: 0px 0px;
+}
+#vl{
+    height: 5px;
+    width: 290px;
+    align-self: center;
+        border-left: 0px solid orange;
+    border-bottom: 2px solid orange;
+margin-bottom: 30px;
+}
+
+/* end about-us page */
 }
 @media screen and (max-width:426px){
         /* facilities */
@@ -450,7 +500,7 @@ background-position:center;
     top: 20%;
     left: 50%;
     transform: translate(-50% , -50%);
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 500;
     color: white;
 }
@@ -460,6 +510,18 @@ background-position:center;
 background-image: linear-gradient(to bottom, rgba(24, 23, 23, 0.6) 0%,rgba(0,0,0,0.6) 100%),url("https://www.aimit.edu.in/wp-content/uploads/2020/09/aimit-hostel-banner.jpg");
 background-position:center;
 }
+/* aboutus-page start */
+.aboutus{
+    flex-direction: column;
+}
+.aboutus-img{
+    width: 400px;
+}
+.aboutus-content{
+    font-weight: 800;
+}
+
+/* end about-us page */
 }
 @media screen and (max-width:375px){
         /* facilities */
@@ -514,6 +576,11 @@ background-position:center;
 	background-color: transparent;
 	cursor: pointer;
 }
+/* aboutus page */
+.aboutus-img{
+    width: 320px;
+}
+/* aboutus end */
 }  
 
  @media screen and (max-width:360px){
@@ -524,7 +591,7 @@ background-position:center;
     top: 28%;
     left: 50%;
     transform: translate(-50% , -50%);
-    font-size: 30px;
+    font-size: 23px;
     font-weight: 500;
     color: white;
 }
@@ -578,7 +645,7 @@ background-position:center;
     top: 17%;
     left: 50%;
     transform: translate(-50% , -50%);
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
     color: white;
 }
@@ -588,6 +655,11 @@ background-position:center;
 background-image: linear-gradient(to bottom, rgba(24, 23, 23, 0.6) 0%,rgba(0,0,0,0.6) 100%),url("https://www.aimit.edu.in/wp-content/uploads/2020/09/aimit-hostel-banner.jpg");
 background-position:center;
 }
+/* aboutus page */
+.aboutus-img{
+    width: 290px;
+}
+/* aboutus end */
 }
 
 
