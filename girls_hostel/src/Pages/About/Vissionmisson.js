@@ -2,7 +2,6 @@ import React from 'react'
 import divider from "../facilities-icon/div-1.png"
 
 export default function Vissionmisson() {
-    window.scrollTo(0, 0)
     return (
         <div>
              <div className='heading text-center padding-top-50 aboutus container'>

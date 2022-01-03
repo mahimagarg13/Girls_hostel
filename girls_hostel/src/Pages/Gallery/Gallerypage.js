@@ -14,7 +14,7 @@ import divider from "../facilities-icon/divider.png"
 // import hostel8 from "../Gallery/Gallery-images/hostel8.png";
 // import hostel9 from "../Gallery/Gallery-images/hostel9.png";
  export default function Gallerypage() {
-    const options = {
+    // const options = {
         // settings: {
         // 	overlayColor: 'rgb(25, 136, 124)',
         // 	autoplaySpeed: 1500,
@@ -35,7 +35,7 @@ import divider from "../facilities-icon/divider.png"
         // 	fillColor: 'blue',
         // 	backgroundColor: 'white'
         // }
-    };
+    // };
     
         // <div>
         //     <SimpleReactLightbox>

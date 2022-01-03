@@ -3,7 +3,6 @@ import "../Style.css";
 import divider from "../facilities-icon/divider.png"
 import aboutusimg from "../Hostel_Images/hostel-1.png"
 export default function Aboutuspage() {
-    window.scrollTo(0, 0)
     return (
         <div>
             <div className='heading text-center padding-top-50'>

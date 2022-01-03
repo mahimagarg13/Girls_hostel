@@ -2,7 +2,6 @@ import React from 'react'
 // import divider from "../facilities-icon/divider.png"
 
 export default function Servicespage() {
-    window.scrollTo(0, 0)
     return (
         <div>
            <div className='heading text-center padding-top-50'>

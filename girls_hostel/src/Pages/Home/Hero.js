@@ -5,7 +5,6 @@ import hostelone from "../Hostel_Images/hostel-1.png"
 import hosteltwo from "../Hostel_Images/hostel-2.png"
 import hostelthree from "../Hostel_Images/hostel-3.png"
 export default function Hero() {
-  window.scrollTo(0, 0)
   return (
     <div className='mr-top'>
       <Carousel>

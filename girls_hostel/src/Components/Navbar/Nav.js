@@ -27,7 +27,7 @@ function Nav() {
           <Link to="/gallery/#" onClick={navBarShow} >Gallery</Link>
           {/* <Link to="/designer/#" onClick={navBarShow} >Designer</Link> */}
           <Link to="/contactus/#" onClick={navBarShow} >Contact Us</Link>
-          <Link to="/contactus/#" onClick={navBarShow} className="btnn" ><FcPhone style={{backgroudcolor:"rgb(126, 214, 248)", fontSize:"larger"}} /> +91-7999794045</Link>
+          <Link to="/contactus/#" onClick={navBarShow} className="btnn" ><FcPhone style={{backgroudcolor:"rgb(126, 214, 248)", fontSize:"larger"}} />+91-7999794045</Link>
         </div>
         <button onClick={() => setShowLinks(!showLinks)} className="margin-right">
           <TiThMenu />

@@ -4,8 +4,6 @@ import { Col, Image } from 'react-bootstrap';
 import divider from "../facilities-icon/divider.png"
 
 export default function Testimonial() {
-    window.scrollTo(0, 0)
-
     return (
         <div>
              <div className='heading text-center padding-top-50'>

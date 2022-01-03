@@ -16,7 +16,6 @@ import fthirtn from "../facilities-icon/cctv.png"
 import ffourtn from "../facilities-icon/parking.png"
 import divider from "../facilities-icon/divider.png"
 export default function Facilities() {
-    window.scrollTo(0, 0)
     return (
         <div id="grad">
             <div className='facilities text-center container' >

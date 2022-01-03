@@ -1,28 +1,58 @@
-import React from 'react'
+import React , { useState } from 'react'
 import Form from 'react-bootstrap/Form';
+import axios from "axios";
 import Button from 'react-bootstrap/Button';
 import { Col, Image } from 'react-bootstrap';
 import divider from "../facilities-icon/divider.png"
 export default function Calltoaction() {
-    window.scrollTo(0, 0)
+    const [name, setName] = useState("");
+    const [phone, setPhone] = useState("");
+    const [message, setMessage] = useState("");
+
+
+    const onSubmitForm = async (e) => {
+        e.preventDefault();
+        try {
+            const data = { name, phone, message };
+
+            axios
+                .post("https://", data)
+            //   .then(setShow(true));
+        } catch (err) {
+            console.error(err.message);
+        }
+    };
     return (
         <div>
             <div className='container facilities'>
                 <div className='heading text-center '>
                     <h1>Call to Action</h1>
-                    <img src={divider} className="divider"  alt="divider" />
+                    <img src={divider} className="divider" alt="divider" />
                 </div>
                 <div className='action-form'>
                     <div className='form     align-self-center'>
-                        <Form>
-                            <Form.Control placeholder="Name" size="lg" />
+                        <Form  onSubmit={onSubmitForm}>
+                            <Form.Control placeholder="Name" size="lg" type="name" value={name}
+                                onChange={(e) => setName(e.target.value)}
+                                required="required"
+                                maxLength="32"
+                                pattern="[a-zA-Z'-'\s]*" />
                             &nbsp;
-                            <Form.Control placeholder="Phone" size="lg" />
+                            <Form.Control placeholder="Phone" size="lg" type="phone"
+                                value={phone}
+                                onChange={(e) => setPhone(e.target.value)}
+                                required="required"
+                                maxLength="12"
+                                pattern="[0-9'-'\s]*" />
                             &nbsp;
                             {/* &nbsp; */}
                             {/* <Form.Control placeholder="Email" size="lg" /> */}
                             &nbsp;
-                            <Form.Control placeholder="Message" as="textarea" rows={3} size="lg" />
+                            <Form.Control placeholder="Message" as="textarea" rows={3} size="lg" type="text"
+                                value={message}
+                                onChange={(e) => setMessage(e.target.value)}
+                                required="required"
+                            />
                             &nbsp;
                             <div className="d-grid">
                                 <Button size="lg" variant="danger" type="submit" >
