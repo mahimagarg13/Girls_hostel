@@ -1,7 +1,6 @@
 import React from 'react'
 import { Button } from 'react-bootstrap'
 export default function Tamplet() {
-    window.scrollTo(0, 0)
     return (
         <div className='tamplet'>
             <div className='facilities-content container'>
