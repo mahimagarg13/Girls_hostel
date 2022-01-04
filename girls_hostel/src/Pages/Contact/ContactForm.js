@@ -15,13 +15,14 @@ export default function Contactform() {
 
 
     const onSubmitForm = async (e) => {
-        e.preventDefault();
+        // e.preventDefault();
         try {
             const data = { name, phone, email, message };
 
             axios
-                .post("https://", data)
+                .post("https://clink-girls-hostel.herokuapp.com/contact", data)
             //   .then(setShow(true));
+            .then(alert("submit"))
         } catch (err) {
             console.error(err.message);
         }
@@ -53,7 +54,7 @@ export default function Contactform() {
                             <Form.Control placeholder="Email" size="lg"  value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required="required"
-                  pattern="[a-z0-9._%+-]+@[a-z0-9.-'-'\s]*"/>
+                  pattern="/[a-z0-9._%+-]+@[a-z0-9.-'-'\s]*/"/>
                             &nbsp;
                             <Form.Control placeholder="Message" as="textarea" rows={3} size="lg" type="text"
                                 value={message}

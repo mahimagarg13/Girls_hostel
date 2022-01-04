@@ -11,13 +11,13 @@ export default function Calltoaction() {
 
 
     const onSubmitForm = async (e) => {
-        e.preventDefault();
+        // e.preventDefault();
         try {
             const data = { name, phone, message };
 
             axios
-                .post("https://", data)
-            //   .then(setShow(true));
+                .post(" https://clink-girls-hostel.herokuapp.com/action", data)
+            .then(alert("submit"))
         } catch (err) {
             console.error(err.message);
         }
@@ -55,7 +55,7 @@ export default function Calltoaction() {
                             />
                             &nbsp;
                             <div className="d-grid">
-                                <Button size="lg" variant="danger" type="submit" >
+                                <Button size="lg" variant="danger" type="submit" onSubmit={onSubmitForm}>
                                     Book A Visit  </Button>
                             </div>
                         </Form>

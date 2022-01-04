@@ -9,6 +9,8 @@ import Gallery from "./Components/Gallery";
 import Contactus from "./Components/Contactus";
 import Services from "./Components/Services";
 import Aboutus from "./Components/Aboutus";
+import Copyright from "./Components/Copyright";
+import Faq from "./Components/Faq";
 
 function App() {
   return (
@@ -21,8 +23,10 @@ function App() {
  <Route path="/contactus"  element={<Contactus />}></Route>
  <Route path="/services"  element={<Services />}></Route>
  <Route path="/aboutus"  element={<Aboutus />}></Route>
+ <Route path="/faq"  element={<Faq />}></Route>
       </Routes>
       <Footer />
+      <Copyright />
     </BrowserRouter>
     </>
   );
