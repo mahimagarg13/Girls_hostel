@@ -8,7 +8,7 @@ export default function Vissionmisson() {
              <p className='aboutus-content'>
                 <h2> <span style={{color:"green" , fontWeight:"bolder"}}>Our</span> <span style={{color:"orange" , fontWeight:"bolder"}}> Vission</span></h2>
                 <img src={divider} className="divider" alt="divider" />
-<p>To be the No.1 PG service provider in Pune by providing a clean, comfortable and affordable accommodation with superior customer service.</p>
+<p>To be the No.1 PG service provider in Bhopal by providing a clean, comfortable and affordable accommodation with superior customer service.</p>
 
                 </p>
                 <div id="vl"></div>

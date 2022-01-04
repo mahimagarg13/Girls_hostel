@@ -31,7 +31,7 @@ export default function Contactform() {
         <div>
             <div className='container facilities padding-top-50'>
                 <div className='heading text-center '>
-                    <h1>Contact Us</h1>
+                    <h1>Get In Touch</h1>
                     <img src={divider} className="divider" alt="divider" />
                 </div>
                 <div className='action-form'>
@@ -70,7 +70,7 @@ export default function Contactform() {
                     <div className='action text-center'>
                         <div className='contact-card'>
                             <div className='heading text-center '>
-                                <h1>Contact Us</h1>
+                                <h1>Contact Information</h1>
                             </div>
                             &nbsp;<div><a href="tel:+91-7999794045" rel="noopener noreferrer" target="_blank" className='a'><FcPhone className="contact-icon" /> +91-7999794045</a></div>
                             &nbsp; <div><a href="mailto:@gmail.com" rel="noopener noreferrer" target="_blank" className='a'> <FcGoogle className="contact-icon" /> clinkgirlshostel@gmail.com</a></div>
