@@ -11,6 +11,7 @@ import Services from "./Components/Services";
 import Aboutus from "./Components/Aboutus";
 import Copyright from "./Components/Copyright";
 import Faq from "./Components/Faq";
+import Error from "./Components/Error";
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
  <Route path="/services"  element={<Services />}></Route>
  <Route path="/aboutus"  element={<Aboutus />}></Route>
  <Route path="/faq"  element={<Faq />}></Route>
+ <Route path="/error"  element={<Error/>}></Route>
+ <Route path="/error"  element={<Error />}></Route>
       </Routes>
       <Footer />
       <Copyright />

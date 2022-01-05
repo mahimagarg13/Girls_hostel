@@ -28,7 +28,7 @@ export default function Calltoaction() {
         <div>
             <div className='container facilities'>
                 <div className='heading text-center '>
-                    <h1>Call to Action</h1>
+                    <h1>Make a Booking</h1>
                     <img src={divider} className="divider" alt="divider" />
                 </div>
                 <div className='action-form'>

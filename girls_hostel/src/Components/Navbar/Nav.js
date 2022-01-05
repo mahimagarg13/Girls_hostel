@@ -11,9 +11,9 @@ function Nav() {
   return (
     <div className="Navbar">
       <div className="leftside"></div>
-      <a href="/">
+      <Link to="/">
         <img src={logo} className="hw" alt="imgg" />
-      </a>
+      </Link>
       <div className="rightside">
         <div className="links" id={showLinks ? "hidden" : ""}>
           <Link to="/#" onClick={navBarShow} ><span style={{color:"#dd9933"}}>Home</span></Link>
@@ -27,7 +27,7 @@ function Nav() {
           <Link to="/gallery/#" onClick={navBarShow} >Gallery</Link>
           {/* <Link to="/designer/#" onClick={navBarShow} >Designer</Link> */}
           <Link to="/contactus/#" onClick={navBarShow} >Contact Us</Link>
-          <Link to="/contactus/#" onClick={navBarShow} className="btnn" ><FcPhone style={{backgroudcolor:"rgb(126, 214, 248)", fontSize:"larger"}} />+91-7999794045</Link>
+          <a href="tel:+91-7999794045" onClick={navBarShow} className="btnn" rel="noopener noreferrer" target="_blank"><FcPhone style={{backgroudcolor:"rgb(126, 214, 248)", fontSize:"larger"}} />+91-7999794045</a>
         </div>
         <button onClick={() => setShowLinks(!showLinks)} className="margin-right">
           <TiThMenu />

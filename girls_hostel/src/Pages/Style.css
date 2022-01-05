@@ -172,6 +172,14 @@ padding-bottom: 30px;
 .con{
     text-align: center;
 }
+.tamplet-link{
+    text-decoration: none;
+    color: white;
+}
+.tamplet-link:hover{
+    text-decoration: none;
+    color: black;
+}
 /* gallery */
 .gallery{
       display: flex;
@@ -200,6 +208,11 @@ flex-direction: row;
     }
     .a:hover{
         color: maroon;
+    }
+    .address{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 0px;
     }
 .contact-card{
     text-align: left;

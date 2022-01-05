@@ -10,7 +10,7 @@ export default function Copyright() {
         <div className="copyright-div">
             <div className="container">
              <a href="https://www.facebook.com/" rel="noopener noreferrer" target="_blank"><FiFacebook className="icon-decoration"/></a>
-             <a href="https://wa.me/+919755115755" rel="noopener noreferrer" target="_blank"><ImWhatsapp className="icon-decoration"/></a>
+             <a href="https://wa.me/+91-7999794045" rel="noopener noreferrer" target="_blank"><ImWhatsapp className="icon-decoration"/></a>
              <a href="https://instagram.com/" rel="noopener noreferrer" target="_blank"><GrInstagram className="icon-decoration"/></a>
             </div>
         </div>

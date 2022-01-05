@@ -1,7 +1,7 @@
 import React from 'react'
 import "../Style.css";
-import fone from "../facilities-icon/wifi.png"
-// import ftwo from "../facilities-icon/bunk.png"
+import fone from "../facilities-icon/biometric.png"
+import ftwo from "../facilities-icon/wifi.png"
 import fthree from "../facilities-icon/restaurant.png"
 import ffour from "../facilities-icon/house.png"
 import ffive from "../facilities-icon/kitchen.png"
@@ -28,6 +28,10 @@ export default function Facilities() {
                         <img src={fone} alt='' className='icons' />
                         <p className="icon-content">Biometic Access</p>
                     </div>
+                     <div className='icon-box'>
+                        <img src={ftwo} alt='' className='icons' />
+                        <p className="icon-content">Wifi Unlimited</p>
+                    </div>
                    
                       <div className='icon-box'>
                         <img src={fseven} alt="" className='icons' />
@@ -41,12 +45,13 @@ export default function Facilities() {
                         <img src={ffour} alt='' className='icons' />
                         <p className="icon-content">Housekeeping Facilities</p>
                     </div>
-                    <div className='icon-box'>
-                        <img src={fnine} alt="" className='icons' />
-                        <p className="icon-content">Silent Study Area </p>
-                    </div>
+                  
                 </div>
                 <div className='facilities-content'>
+                <div className='icon-box'>
+                        <img src={fnine} alt="" className='icons' />
+                        <p className="icon-content">Silent Study Space </p>
+                    </div>
                     <div className='icon-box'>
                         <img src={ften} alt="" className='icons' />
                         <p className="icon-content">Tea Coffee Vendering machine</p>

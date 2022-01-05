@@ -7,7 +7,7 @@ export default function Breadcrumbsgcontact() {
         <div className='breadcrumb-bg-image'>
             <Breadcrumb  className='breadcrumb-content'>
             <Breadcrumb.Item   ><Link to="/" style={{color:"orange", textDecoration:"none"}}>Home</Link></Breadcrumb.Item>
-   <Breadcrumb.Item >Contact Us</Breadcrumb.Item>
+   <Breadcrumb.Item >Contact </Breadcrumb.Item>
 </Breadcrumb>
         </div>
     )

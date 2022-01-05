@@ -26,7 +26,7 @@ function Footer() {
                             {/* <FaAngleRight className="text-golden" /> */}
                             <a href="/#">Home</a><br />
                             {/* <FaAngleRight className="text-golden" />  */}
-                            <Link to="/about">About Us</Link><br />
+                            <Link to="/aboutus">About Us</Link><br />
                             <Link to="/services">Services</Link><br />
                             <Link to="/gallery">Gallery</Link><br />
                             <Link to="/contactus"> Contact Us</Link><br />
@@ -48,9 +48,9 @@ function Footer() {
                         <h4>Important Links</h4>
                         <div className="lnk">
                             {/* <FaAngleRight className="text-golden" /> */}
-                            <Link to="/rulesregulation">Rules & Regulation</Link><br />
+                            <Link to="/error">Rules & Regulation</Link><br />
                             {/* <FaAngleRight className="text-golden" /> */}
-                            <Link to="/termsconditions">Terms & Conditions</Link><br />
+                            <Link to="/error">Terms & Conditions</Link><br />
                             {/* <FaAngleRight className="text-golden" /> */}
                             <Link to="/faq">FAQ</Link><br />
                         </div></div>
