@@ -22,7 +22,8 @@ export default function Contactform() {
             axios
                 .post("https://clink-girls-hostel.herokuapp.com/contact", data)
             //   .then(setShow(true));
-            .then(alert("submit"))
+            .then(alert("Submit"));
+                window.location.reload();
         } catch (err) {
             console.error(err.message);
         }

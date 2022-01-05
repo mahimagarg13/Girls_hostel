@@ -1,7 +1,7 @@
 import React from 'react'
 import "../Style.css";
-import fone from "../facilities-icon/biometric.png"
-import ftwo from "../facilities-icon/bunk.png"
+import fone from "../facilities-icon/wifi.png"
+// import ftwo from "../facilities-icon/bunk.png"
 import fthree from "../facilities-icon/restaurant.png"
 import ffour from "../facilities-icon/house.png"
 import ffive from "../facilities-icon/kitchen.png"
@@ -24,14 +24,14 @@ export default function Facilities() {
                     <img src={divider} className="divider"  alt="divider" />
                 </div>
                 <div className='facilities-content'>
-                    <div className='icon-box'>
+                     <div className='icon-box'>
                         <img src={fone} alt='' className='icons' />
                         <p className="icon-content">Biometic Access</p>
                     </div>
-                    <div className='icon-box'>
-                        <img src={ftwo} alt='' className='icons' />
-                        <p className="icon-content">Bunk Beds for spacious rooms</p>
-
+                   
+                      <div className='icon-box'>
+                        <img src={fseven} alt="" className='icons' />
+                        <p className="icon-content">Security Guard</p>
                     </div>
                     <div className='icon-box'>
                         <img src={feleven} alt="" className='icons' />
@@ -43,7 +43,7 @@ export default function Facilities() {
                     </div>
                     <div className='icon-box'>
                         <img src={fnine} alt="" className='icons' />
-                        <p className="icon-content">Separate study room available</p>
+                        <p className="icon-content">Silent Study Area </p>
                     </div>
                 </div>
                 <div className='facilities-content'>
@@ -56,10 +56,7 @@ export default function Facilities() {
                         <img src={fsix} alt="" className='icons' />
                         <p className="icon-content">RO Purified Water</p>
                     </div>
-                    <div className='icon-box'>
-                        <img src={fseven} alt="" className='icons' />
-                        <p className="icon-content">Security Guard</p>
-                    </div>
+                  
                     <div className='icon-box'>
                         <img src={ffourtn} alt="" className='icons' />
                         <p className="icon-content">Ample Two Wheeler Parking Available</p>

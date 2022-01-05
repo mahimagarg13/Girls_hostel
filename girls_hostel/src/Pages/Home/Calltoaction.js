@@ -11,13 +11,15 @@ export default function Calltoaction() {
 
 
     const onSubmitForm = async (e) => {
-        // e.preventDefault();
+        e.preventDefault();
         try {
             const data = { name, phone, message };
 
             axios
                 .post(" https://clink-girls-hostel.herokuapp.com/action", data)
-            .then(alert("submit"))
+               .then(alert("Submit"));
+                window.location.reload();
+
         } catch (err) {
             console.error(err.message);
         }

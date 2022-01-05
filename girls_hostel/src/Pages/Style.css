@@ -86,10 +86,14 @@ background-color: #dd9933;
 /* facilities-page */
 .facilities{
     padding: 50px;
-}
-
+   
+      }
 #grad {
     background-image: linear-gradient(to bottom, white, pink);
+    /* background-image: url("https://c1.wallpaperflare.com/preview/802/154/558/hostel-youth-hostel.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%; */
   }
 .heading{
 padding-bottom: 30px;
@@ -209,8 +213,12 @@ flex-direction: row;
     display: flex;
     flex-direction: row;
 }
+/* .aboutus-bg{
+background-image: url("https://st3.depositphotos.com/12488364/19207/v/1600/depositphotos_192072186-stock-illustration-abstract-3d-background-with-white.jpg");
+} */
 .aboutus-img{
     width: 650px;
+    border-radius: 10px;
 }
 .aboutus-content{
     font-weight: 800;
